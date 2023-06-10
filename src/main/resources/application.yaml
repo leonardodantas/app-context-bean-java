@@ -1,0 +1,9 @@
+spring:
+  application:
+    swagger:
+      title: '@name@'
+      description: '@description@'
+      version: '@version@'
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
